@@ -1,38 +1,1100 @@
-.App {
+.app{
+  background-color: #000000;
+  height: 750px;
+}
+.nav{
+  background-color: rgba(103, 105, 105, 0.37);
+  backdrop-filter: blur(70px);
+  box-shadow: 0 8px 32px rgba(124, 124, 124, 0.2);
+   height: 70px;
+  
+  }
+  .Home{
+    margin-left: 770px;
+  }
+  .signin{
+  border-radius: 50px;
+  border-color: orange;
+  height: 40px;
+  width: 90px;
+  font-size: large;
+  cursor: pointer;
+  color: white;
+  background-color:  rgba(81, 82, 82, 0.37);
+  }
+  .signin:hover{
+    opacity: 30%;
+  }
+  .home{
+    color: white;
+    margin-top: 20px;
+  }
+  .home1{
+    color: white;
+    margin-top: 20px;
+  }
+  .home2{
+    color: white;
+    margin-top: 20px;
+  }
+  .home3{
+    color: white;
+    margin-top: 20px;
+  }
+  .home4{
+    color: white;
+    margin-top:20px;
+  }
+  .home5{
+    color: white;
+    margin-top: 20px;
+  }
+.coverup{
+  margin-left: 65px;
+  margin-top: -50px;
+  display: flex;
+  flex-direction: row;
+}
+.register{
+  border: 2.5px solid orange;
+  height: 40px;
+  width: 150px;
+  border-radius: 20px;
+  text-align: center;
+  margin-left: 180px;
+ margin-bottom: 80px;
+ margin-top: 5px;
+ background-color: #000000;
+ color: white;
+}
+.register:hover{
+  opacity: 30%;
+}
+.coverisro{
+  margin-top: 150px;
+}
+.participate{
+  font-size: x-large;
+  color: orange;
+  margin-left: 120px;
+  margin-top: 30px;
+}
+.contacting {
+  color: rgb(250, 250, 250);
+  font-size: xx-large;
+  font: 600;
+  text-align: center;
+  padding-top: 20px;
+}
+.shifting{
+  color: rgb(196, 119, 3);
+  font-size: x-large;
+  font-style: italic;
+ margin-left: 530px;
+  margin-top: 100px;
+}
+.blanck{
+  background-color: rgb(252, 252, 252) ;
+  width: 100%;
+  height: 2px;
+}
+.contract{
+  background-color: #000000;
+  height: 200px;
+}
+.oneline{
+  display: flex;
+  gap: 10px;
+  margin-left: 80px;
+  margin-top: 30px;
+}
+.button1{
+   width: 500px; 
+   margin-left: 80px;
+}
+.button2{
+  width: 500px;
+ margin-left: 80px;
+}
+.isrolast
+{
+  background-color: rgb(0, 0, 0);
+  margin-top: 120px;
+  width: 600px;
+  color: rgb(242, 243, 245);
+}
+.seperatepart{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   background-color: black;
+   height: 410px;
+}
+.secondpart{
+   background-color: rgb(1, 1, 1);
+   margin-top: 120px;
+  width: 400px;
+  color: rgb(253, 254, 255);
+ gap: 15px; 
+}
+.twiit{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  color: rgb(240, 244, 249);
+}
+.logos{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.sh1{
+  display: flex;
+}
+.sh2{
+  display: flex;
+}
+.sh3{
+  display: flex;
+}
+.sh4{
+  display: flex;
+}
+.sh5{
+  display: flex;
+}
+.sh6{
+  display: flex;
+}
+.sh7{
+  display: flex;
+}
+.h1{
+  background-color: rgba(0, 0, 0, 0.934);
+  width: 90%;
+  position: fixed;
+  margin-left: -110%;
+  transition: 0.7s;
+  height: 1100px;
+}
+.h2{
+  margin-left: -5%;
+}
+.rocket
+{
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.bout{
+  display: flex;
+}
+.t1{
+  margin-top: 100px;
+  padding-left: 20px;
+  font-weight: bold;
+  background: linear-gradient(45deg, rgb(253, 131, 0), rgb(239, 225, 205));
+  -webkit-background-clip: text; /* Clipping the gradient to the text */
+  background-clip: text;
+  -webkit-text-fill-color: transparent; /* Hides the default text color */
+}
+.t2{
+  font-size: 15px;
+  color: white;}
+.t3{
+  background-color: blue;
+  width: 800px;
+  margin-left: 350px;
+  height: 300px;
+  margin-top: -180px;
+  font-weight: bold;
+  background: linear-gradient(45deg, rgb(253, 131, 0), rgb(239, 225, 205));
+  -webkit-background-clip: text; /* Clipping the gradient to the text */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.t4{
+  border: 1px solid white;
+  width: 200px;
+  height: 200px;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+.t5{
+  border: 1px solid white;
+  width: 200px;
+  height: 200px;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+.t6{
+  border: 1px solid white;
+  width: 200px;
+  height: 200px;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+.t7{
+  display: flex;
+  gap: 40px;
+}
+.t8{
+ text-align: center;
+}
+.t9{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.t10{
+  text-align: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.t11{
+  margin-left: 50px;
+  margin-top: 10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.t12{
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.t13{
+ margin-left: 50px;
+ margin-top: 10px;
+}
+.t14{
+  margin-top: 30px;
+  font-weight: 400;
+  background: linear-gradient(45deg, rgb(209, 153, 93), rgb(241, 241, 241));
+  -webkit-background-clip: text; /* Clipping the gradient to the text */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.t15{
+margin-top: 40px;
+margin-left: 30px;
+margin-bottom: 20px;
+backdrop-filter: blur(70px);
+box-shadow: 0 8px 32px rgba(3, 45, 86, 0.8);
+border-radius: 20px;
+}
+.t16{
+  display: flex;
+  gap: 20px;
+  background-color: rgb(61, 61, 217,0.4);
+  backdrop-filter: blur(70px);
+  box-shadow: 0 5px 25px rgba(78, 74, 74, 0.4);
+}
+.t17{
+  font-size: small;
+  background: linear-gradient(45deg, rgb(203, 117, 24), rgb(241, 241, 241));
+  -webkit-background-clip: text; /* Clipping the gradient to the text */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.t18{
+  margin-top: 50px;
+  background: linear-gradient(45deg, rgb(238, 137, 29), rgb(241, 241, 241));
+  -webkit-background-clip: text; /* Clipping the gradient to the text */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.t19{
+  background: linear-gradient(45deg, rgb(238, 137, 29), rgb(241, 241, 241));
+  -webkit-background-clip: text; /* Clipping the gradient to the text */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 550px;
+  margin-top: 20px;
+}
+.t20{
+  background-image: url(images/earthday.png);
+ backdrop-filter: blur(20px);
+  height: 300px;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  text-align: center;
+}
+.t21{
+  border: 1px solid rgb(255, 252, 252);
+  height:250px;
+  width: 250px;
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.082);
+  border-radius: 15px;
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  background: linear-gradient(45deg, rgb(250, 129, 0), rgb(243, 234, 219));
+  -webkit-background-clip: text; /* Clipping the gradient to the text */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.t22{
+  border: 1px solid rgb(255, 252, 252);
+  height:250px;
+  width: 250px;
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.101);
+  border-radius: 15px;
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, rgb(248, 128, 0), rgb(255, 246, 237));
+  -webkit-background-clip: text; /* Clipping the gradient to the text */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.t23{
+  border: 1px solid rgb(255, 252, 252);
+  height:250px;
+  width: 250px;
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.104);
+  border-radius: 15px;
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, rgb(255, 132, 0), rgb(250, 248, 246));
+  -webkit-background-clip: text; /* Clipping the gradient to the text */
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.t24{
+  border: 1px solid rgb(255, 252, 252);
+  height:250px;
+  width: 250px;
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.086);
+  border-radius: 15px;
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, rgb(236, 122, 0), rgb(243, 241, 239));
+  -webkit-background-clip: text; /* Clipping the gradient to the text */
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.me{
+  color: azure;
+ padding-left: 97%;
+ width: 200px;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.modeloverlay{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(113, 110, 110, 0.5);
+  position:fixed;
+  display: none;
+}
+.enquirepage{
+background-image: linear-gradient(45deg,rgb(231, 108, 1), rgb(235, 208, 158));
+  width: 500px;
+  height: 510px;
+  margin-top: 150px;
+  margin-left: 500px;
+  position: fixed;
+  transition: 0.6s;
+  margin-top: -500px;
+ 
+}
+.forum{
+  margin-top: 10px;
+}
+.address{
+  width: 330px;
+}
+.password{
+  width: 330px;
+}
+.active{
+  display: block;
+}
+.page{
+  margin-top: 8%;
+}
+.cross{
+  margin-left: 470px;
+ font-size: x-large;
+ border: 1px solid rgb(255, 255, 255);
+ background-color: #000000;
+ color: white;
+ width: 100px;
+}
+.notification-container {
+
+  bottom: 600px;
+  right: 20px;
+  z-index: 1550;
+}
+.notification {
+  margin-bottom: 600px;
+}
+.j1{
+  background-image: url(images/earthday.png);
+  height: 550px;
+  width: 820px;
+  margin-top: 100px;
+  margin-left: 300px;
+  position: fixed;
+  border: 1px solid white;
+  margin-left:-100%;
+  transition: 0.5s;
+}
+.j2{
+  background: linear-gradient(45deg, rgb(255, 106, 0), rgb(243, 199, 155));
+  -webkit-background-clip: text; /* Clipping the gradient to the text */
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-align: center;
+}
+.j3{
+   display: flex;
+   gap: 40px;
+   margin-top: 15px;
+   margin-left: 40px;
+}
+.j4{
+  border: 1px solid white;
+  width: 220px;
+  height: 200px;
+  background: rgba(63, 63, 63, 0.02);
+  border-radius: 15px;
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.j4 h1{
+  background: linear-gradient(45deg, rgb(255, 106, 0), rgb(243, 199, 155));
+  -webkit-background-clip: text; /* Clipping the gradient to the text */
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-align: center;
+  margin-top: 10px;
+}
+.j4 p{
+  background: linear-gradient(45deg, rgb(255, 106, 0), rgb(233, 158, 83));
+  -webkit-background-clip: text; /* Clipping the gradient to the text */
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-align: center;
+}
+.j4 h6{
+  background: linear-gradient(45deg, rgb(255, 106, 0), rgb(238, 161, 85));
+  -webkit-background-clip: text; /* Clipping the gradient to the text */
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-align: center;
+}
+.j5{
+  border: 1px solid white;
+  width: 220px;
+  height: 200px;
+  background: rgba(255, 255, 255, 0.086);
+  border-radius: 15px;
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.j5 h1{
+  background: linear-gradient(45deg, rgb(255, 106, 0), rgb(215, 167, 120));
+  -webkit-background-clip: text; /* Clipping the gradient to the text */
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-align: center;
+  margin-top: 10px;
+}
+.j5 h6{
+  background: linear-gradient(45deg, rgb(255, 106, 0), rgb(243, 199, 155));
+  -webkit-background-clip: text; /* Clipping the gradient to the text */
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-align: center;
+}
+.j5 p{
+  background: linear-gradient(45deg, rgb(255, 106, 0), rgb(243, 199, 155));
+  -webkit-background-clip: text; /* Clipping the gradient to the text */
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-align: center;
+}
+.j6{
+  border: 1px solid white;
+  width: 220px;
+  height: 200px;
+  background: rgba(255, 255, 255, 0.086);
+  border-radius: 15px;
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.j6 h1{
+  background: linear-gradient(45deg, rgb(255, 106, 0), rgb(243, 199, 155));
+  -webkit-background-clip: text; /* Clipping the gradient to the text */
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-align: center;
+  margin-top: 10px;
+}
+.j6 h6{
+  background: linear-gradient(45deg, rgb(255, 106, 0), rgb(243, 199, 155));
+  -webkit-background-clip: text; /* Clipping the gradient to the text */
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-align: center;
+}
+.j6 p{
+  background: linear-gradient(45deg, rgb(255, 106, 0), rgb(243, 199, 155));
+  -webkit-background-clip: text; /* Clipping the gradient to the text */
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-align: center;
+}
+.j7{
+  border: 1px solid white;
+  width: 220px;
+  height: 200px;
+  background: rgba(255, 255, 255, 0.086);
+  border-radius: 15px;
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.j7 h1{
+  background: linear-gradient(45deg, rgb(255, 106, 0), rgb(243, 199, 155));
+  -webkit-background-clip: text; /* Clipping the gradient to the text */
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-align: center;
+  margin-top: 10px;
+}
+.j7 h6{
+  background: linear-gradient(45deg, rgb(255, 106, 0), rgb(238, 161, 85));
+  -webkit-background-clip: text; /* Clipping the gradient to the text */
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-align: center;
+}
+.j7 p{
+  background: linear-gradient(45deg, rgb(255, 106, 0), rgb(238, 161, 85));
+  -webkit-background-clip: text; /* Clipping the gradient to the text */
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-align: center;
+}
+.j8{
+  border: 1px solid white;
+  width: 220px;
+  height: 200px;
+  background: rgba(255, 255, 255, 0.086);
+  border-radius: 15px;
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.j8 h1{
+  background: linear-gradient(45deg, rgb(255, 106, 0), rgb(243, 199, 155));
+  -webkit-background-clip: text; /* Clipping the gradient to the text */
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-align: center;
+  margin-top: 10px;
+}
+.j8 h6{
+  background: linear-gradient(45deg, rgb(255, 106, 0), rgb(238, 161, 85));
+  -webkit-background-clip: text; /* Clipping the gradient to the text */
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-align: center;
+}
+.j8 p{
+  background: linear-gradient(45deg, rgb(255, 106, 0), rgb(238, 161, 85));
+  -webkit-background-clip: text; /* Clipping the gradient to the text */
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-align: center;
+}
+.j9{
+  display: flex;
+   gap: 40px;
+   margin-top: 30px;
+   margin-left: 170px;
+}
+.j10{
+  margin-left: 20%;
+}
+.j11{
+  margin-left: 97%;
+  font-size: x-large;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  border: 2px solid white;
+}
+
+.j11:hover{
+  cursor: pointer;
+  opacity: 20%;
+  margin-top: 50px;
+}
+.f1{
+  background-image: url(images/prithvi.png);
+  backface-visibility: 50%;
+  height: 1430px;
+  width: 100%;
+  margin-left: -62px;
+  position: fixed;
+  border: 1px solid white;
+  margin-top: 73px;
+  margin-top: -1500px;
+}
+.f2{
+  text-align: center;
+  color: orange;
+  margin-top: 10px;
+
+}
+.f3{
+  display: flex;
+  gap: 30px;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+.f4{
+  border-radius: 10px;
+  object-fit: fill;
+}
+.f5{
+  font-size: large;
+  font-weight: bold;
+}
+.f6{
+  border-radius: 10px;
+  object-fit: fill;
+}
+.f7{
+  font-size: large;
+  font-weight: bold;
+}
+.f8{
+  border-radius: 10px;
+  object-fit: fill;
+}
+.f9{
+  font-size: large;
+  font-weight: bold;
+}
+.f10{
+  border-radius: 10px;
+  object-fit: fill;
+}
+.f11{
+  font-size: large;
+  font-weight: bold;
+}
+.f12{
+  display: flex;
+  gap: 30px;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+.f13{
+  border-radius: 10px;
+  object-fit: fill;
+}
+.f14{
+  font-size: large;
+  font-weight: bold;
+}
+.f15{
+  border-radius: 10px;
+  object-fit: fill;
+}
+.f16{
+  font-size: large;
+  font-weight: bold;
+}
+.f17{
+  border-radius: 10px;
+  object-fit: fill;
+}
+.f18{
+  font-size: large;
+  font-weight: bold;
+}
+.f19{
+  border-radius: 10px;
+  object-fit: fill;
+}
+.f20{
+  font-size: large;
+  font-weight: bold;
+}
+.lasttopic{
+  display: flex;
+  gap: 30px;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+.f21{
+  border-radius: 10px;
+  object-fit: fill;
+}
+.f22{
+  font-size: large;
+  font-weight: bold;
+}
+.f23{
+  border-radius: 10px;
+  object-fit: fill;
+}
+.f24{
+  font-size: large;
+  font-weight: bold;
+}
+.f25{
+  border-radius: 10px;
+  object-fit: fill;
+}
+.f26{
+  font-size: large;
+  font-weight: bold;
+}
+.f27{
+  border-radius: 10px;
+  object-fit: fill;
+}
+.f28{
+  font-size: large;
+  font-weight: bold;
+}
+.f30{
+  margin-left: 97%;
+  font-size: x-large;
+  color: white;
+ background-color: darkorange;
+ border: 2px solid white;
+ padding: 10px;
+}
+.f100{
+  margin-top: 78px;
+}
+.cut{
+  margin-top: 12px;
+}
+.f40{
+  background-color: rgba(3, 2, 73, 0.796);
+  width: 95%;
+  position: fixed;
+  transition: 0.7s;
+  height: 525px;
+  margin-left: -60px;
+  margin-top: 100px;
+  display: flex;
+  gap: 100px;
+  margin-left: -105%;
+}
+.o4{
+  margin-left: 0%;
+}
+.s1{
+  margin-top: 60px;
+  width: 940px;
+  margin-left: -70px;
+ height: 400px;
+}
+.s2{
+  border-radius: 5px;
+}
+.s3{
+  border-radius: 5px;
+}
+.s4{
+  border-radius: 5px;
+}
+.o3{
+  background: linear-gradient(60deg, rgb(226, 119, 37), rgb(255, 245, 234));
+  -webkit-background-clip: text; /* Clipping the gradient to the text */
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: xx-large;
+margin-left: 150px;
+}
+.o5{
+  background-color: rgb(255, 128, 0);
+margin-left: 93%;
+font-size: x-large;
+margin-top: -30px;
+color: white;
+}
+.w1{
+  background-image: url(images/bg.png);
+  object-fit: fill;
+  width: 99.9%;
+  position: fixed;
+  transition: 0.7s;
+  height: 525px;
+  margin-left: -60px;
+  margin-top: 75px;
+  margin-left: -105%;
+}
+.w2{
+  font-size: xx-large;
+  background: linear-gradient(35deg,rgb(255, 132, 0),rgb(237, 234, 230));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 100px;
+  margin-top: 70px;
+}
+.w3{
+  display: flex; 
+  gap: 30px;
+}
+.w4{
+  background-color: blanchedalmond;
+  width: 556px;
+  height:254px ;
+  margin-left: 100px;
+  margin-top: 40px;
+  background: rgba(255, 255, 255, 0.086);
+  border-radius: 15px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.w4 img{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.w4 h2{
+  background: linear-gradient(35deg,rgb(255, 132, 0),rgb(233, 212, 185));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 20px;
+}
+.w4 p{
+  background: linear-gradient(35deg,rgb(255, 132, 0),rgb(233, 212, 185));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 20px;
+}
+.w5{
+  background-color: blanchedalmond;
+  width: 556px;
+  height:254px ;
+  margin-top: 40px;
+  background: rgba(255, 255, 255, 0.086);
+  border-radius: 15px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(9px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.w5 img{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.w5 h2{
+  background: linear-gradient(35deg,rgb(255, 132, 0),rgb(233, 212, 185));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 20px;
+}
+.w5 p{
+  background: linear-gradient(35deg,rgb(255, 132, 0),rgb(233, 212, 185));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 20px;
+}
+.delete{
+  margin-left: 98%;
+  font-size: x-large;
+  border: 2px solid white;
+  color: white;
+   margin-top: 20px;
+}
+.down{
+  margin-top: 5px;
+}
+.active1{
+  margin-left: -5%;
+}
+.ai1{
+  width: 400px;
+  position: fixed;
+  height: 260px;
+ margin-top: 30px;
+  background-color: rgb(255, 255, 255);
+  margin-left: -300px;
+  border-radius: 20px;
+  margin-top: -100%;
+}
+.vapis{
+  margin-top: 0%;
+}
+.ai2{
+  text-align: center;
+  margin-top: 5px;
+  color: rgb(0, 120, 24);
+}
+.ai3{
+  height: 0%;
+  border: 1px solid black;
+}
+.ai4{
+  margin-top: 20px;
+}
+.ai5{
+  margin-top: 20px;
+  font-size: large;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.ai6{
+  font-size: large;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.buttonofsignin{
+  border-style: none;
+  font-size: large;
+  padding: 15px;
+  color: white;
+  background-color: rgb(22, 105, 230);
+  border-radius: 20px;
+  height: 50px;
+  border: 1px solid rgb(34, 85, 236);
+  margin-top: 10px;
+  text-align: center;
+ width: 110px;
+}
+.buttonofsignin1{
+  border-style: none;
+  font-size: large;
+  padding: 15px;
+  color: white;
+  background-color: rgb(64, 64, 65);
+  margin-left: 50px;
+  margin-top: 10px;
+  height: 50px;
+  border-radius: 20px;
+  width: 100px;
+}
+.signinbutton{
+  display: flex;
+  gap: 40px;
+  margin-top: 10px;
+}
+.ai7{
+  margin-left: 370px;
+  border: 2px solid black;
+  border-radius: 20px;
+  font-size: large;
+  font-weight: bold;
+}
+.signin{
+  margin-top: 10px;
+}
+.modaal{
+  background-color: rgb(255, 255, 255);
+  width: 300px;
+  height: 300px;
+  position: fixed;
+  margin-top: 90px;
+  margin-left: -20%;
+  margin-top: -40%;
+}
+.foot{
+  gap: 50px;
+}
+.bringback{
+ margin-top: 0%;
+}
+.faqs{
+  position: fixed;
+  margin-top: 80px;
+  background-color: rgb(23, 23, 23,0.8);
+  height: 50px;
+  width: 100%;
+  margin-left: -62px;
+  margin-left: -106%;
+}
+.faqshow{
+  margin-left: -4%;
+}
+.faqs h1{
+  font-size: xx-large;
+  font-weight: bold;
+  margin-left: 40px;
+  margin-top: 20px;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.ques1{
+  margin-top:30px ;
+  background: rgb(0, 0, 0);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ques2{
+  border: 2px solid rgb(58, 58, 58);
+  margin-bottom: 5px;
+}
+.ques2 h5{
+  margin: 0px;
+  color: white;
+  text-align: left;
+  background-color: rgb(0, 0, 0);
+  height: 50px;
+  padding-top: 10px;
+  padding-left: 35px;
+}
+.ques2 p{
+  margin: 0px;
+ margin-left: 23px;
+  height: 0px;
+  text-align: left;
+  color: white;
+  transform: scaleY(0);
+  transition: 0.4s;
+  
+}
+.quesAns{
+  height: auto !important;
+  transform: scaleY(1) !important;
+  padding: 10px !important;
+}
+.faqcross{
+  margin-left: 940px;
+  background-color: aquamarine;
+  padding: 4px;
+  
 }
